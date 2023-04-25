@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>LOGIN</h1>
+        </header>
+
+        <form id="form">
+            <label for="user">Usuário</label>
+            <p class="error error-user"></p>
+            <input type="text" id="user" placeholder="Coloque seu usuário">
+            
+
+            <label for="password">Senha</label>
+            <p class="error error-password"></p>
+            <input type="password" id="password" placeholder="Coloque sua senha">
+
+            <a class="rec-password" href="#">Esqueceu sua senha?</a> 
+
+            <button type="submit">LOGIN</button>    
+        </form>
+
+        <footer>
+            <label for="enter-with">Entrar com</label>
+            <div class="container-footer">
+                <a href="#" style="color:rgb(59, 89, 152);" title="Facebook"><i class="fa-brands fa-facebook fa-beat"></i></a>
+                <a href="#" style="color:#db4a39;" title="Google"><i class="fa-brands fa-google-plus fa-beat"></i></a>
+                <a href="#" style="color:rgb(0, 172, 238);" title="Twiter"><i class="fa-brands fa-twitter fa-beat"></i></a>
+            </div>
+
+            <div class="container-create">
+                <label for="create-account">Ainda não tem conta?</label>
+                <a class="link-create" href="createAccout.html" target="_blank">Cadastre-se</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://kit.fontawesome.com/82e195582f.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando sua conta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" style="padding: 10px 15px;">
+        <header>
+            <h1>Criando conta</h1>
+        </header>
+
+        <form id="form">
+            <label for="name">Nome</label>
+            <p class="error error-name"></p>
+            <input type="text" id="name" placeholder="Coloque seu nome">
+
+            <label for="lastName">Sobrenome</label>
+            <p class="error error-lastName"></p>
+            <input type="text" id="LastName" placeholder="Coloque seu sobrenome">
+
+            <label for="date">Data de nascimento</label>
+            <p class="error error-date"></p>
+            <input type="date" id="date">
+
+            <label for="email">Email</label>
+            <p class="error error-email"></p>
+            <input type="email" id="email" placeholder="Coloque seu email">
+
+            <label for="password">Senha</label>
+            <p class="error error-password"></p>
+            <input type="password" id="password" placeholder="coloque sua senha">
+
+            <label for="confirmPassword">Confirmação de senha</label>
+            <p class="error error-confirmPassword"></p>
+            <input type="password" id="confirmPassword" placeholder="Coloque sua senha novamente">
+
+            <button type="submit">Criar conta</button>
+        </form>
+    </div>
+
+    <script src="index02.js"></script>
+</body>
+</html>
