@@ -18,7 +18,7 @@ form.addEventListener('submit', (event) => {
         return
 
     } else if(!validatePassword(password.value, 8)) {
-        errorPassword.innerHTML = 'O campo senha tem que ter no mínimo 8 caractéres!'
+        errorPassword.innerHTML = 'O campo senha deve ter no mínimo 8 caractéres!'
         return
     }
     errorPassword.innerHTML+= ''
