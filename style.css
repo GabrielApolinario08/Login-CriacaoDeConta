@@ -111,3 +111,49 @@ footer {
     font-size: 15px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 1280px){
+    .container {
+        width: 30%;
+    }
+
+    .link-create {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:976px){
+    .container-create label {
+        font-size: 15px;
+    }
+
+    .container {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .container {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:611px){
+    .container-create label {
+        padding: 10px 0;
+    }
+
+    .container {
+        width: 50%;
+    }
+
+    .container-create {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .link-create {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
